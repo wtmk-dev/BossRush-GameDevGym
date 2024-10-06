@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening;
+//using DG.Tweening;
 
 public class Game : MonoBehaviour
 {
@@ -21,7 +21,7 @@ public class Game : MonoBehaviour
 
     private void Start()
     {
-        DOTween.Init();
+        //DOTween.Init();
     }
 
     private void OnStart()
